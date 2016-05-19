@@ -20,7 +20,15 @@ React.createClass({
     optionalNumber: React.PropTypes.number,
     optionalObject: React.PropTypes.object,
     optionalString: React.PropTypes.string,
+  }
 
+});
+```
+
+
+## Other Props validation type 
+
+```
     // Anything that can be rendered: numbers, strings, elements or an array
     // (or fragment) containing these types.
     optionalNode: React.PropTypes.node,
@@ -88,6 +96,4 @@ React.createClass({
       }
     })
   },
-  /* ... */
-});
-```
+  ``` 
